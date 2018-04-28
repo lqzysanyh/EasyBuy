@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>EasyBuy</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  	<!-- <servlet>
+	<servlet-name>Home</servlet-name>
+	<servlet-class>cn.easybuy.web.pre.HomeServlet</servlet-class>
+	<load-on-startup>1</load-on-startup>
+	</servlet>
+  	<servlet>
+	<servlet-name>Address</servlet-name>
+	<servlet-class>cn.easybuy.web.pre.AddressServlet</servlet-class>
+	<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet>
+  	<servlet-name>Cart</servlet-name>
+	<servlet-class>cn.easybuy.web.pre.CartServlet</servlet-class>
+	<load-on-startup>3</load-on-startup>
+	</servlet>
+	<servlet>
+  	<servlet-name>Category</servlet-name>
+	<servlet-class>cn.easybuy.web.pre.CategoryServlet</servlet-class>
+	<load-on-startup>4</load-on-startup>
+	</servlet>
+	<servlet>
+  	<servlet-name>Favorite</servlet-name>
+	<servlet-class>cn.easybuy.web.pre.FavoriteServlet</servlet-class>
+	<load-on-startup>5</load-on-startup>
+	</servlet>
+	<servlet>
+  	<servlet-name>Login</servlet-name>
+	<servlet-class>cn.easybuy.web.pre.LoginServlet</servlet-class>
+	<load-on-startup>6</load-on-startup>
+	</servlet>
+	<servlet>
+  	<servlet-name>News</servlet-name>
+	<servlet-class>cn.easybuy.web.pre.NewsServlet</servlet-class>
+	<load-on-startup>7</load-on-startup>
+	</servlet>
+	<servlet>
+  	<servlet-name>Product</servlet-name>
+	<servlet-class>cn.easybuy.web.pre.ProductServlet</servlet-class>
+	<load-on-startup>8</load-on-startup>
+	</servlet>
+	<servlet>
+  	<servlet-name>Register</servlet-name>
+	<servlet-class>cn.easybuy.web.pre.RegisterServlet</servlet-class>
+	<load-on-startup>9</load-on-startup>
+	</servlet>
+	<servlet>
+  	<servlet-name>adminCategory</servlet-name>
+	<servlet-class>cn.easybuy.web.backend.AdminCategoryServlet</servlet-class>
+	<load-on-startup>10</load-on-startup>
+	</servlet>
+	<servlet>
+  	<servlet-name>adminNews</servlet-name>
+	<servlet-class>cn.easybuy.web.backend.AdminNewsServlet</servlet-class>
+	<load-on-startup>11</load-on-startup>
+	</servlet>
+	<servlet>
+  	<servlet-name>order</servlet-name>
+	<servlet-class>cn.easybuy.web.backend.AdminOrderServlet</servlet-class>
+	<load-on-startup>12</load-on-startup>
+	</servlet>
+	<servlet>
+  	<servlet-name>adminProduct</servlet-name>
+	<servlet-class>cn.easybuy.web.backend.AdminProductServlet</servlet-class>
+	<load-on-startup>13</load-on-startup>
+	</servlet>
+	<servlet>
+  	<servlet-name>adminUser</servlet-name>
+	<servlet-class>cn.easybuy.web.backend.AdminUserServlet</servlet-class>
+	<load-on-startup>14</load-on-startup>
+	</servlet>
+  <servlet>
+    <servlet-name>OtherServlet</servlet-name>
+    <servlet-class>cn.easybuy.web.phonePre.OtherServlet</servlet-class>
+  </servlet>
+
+	
+	<servlet-mapping>
+		<servlet-name>Home</servlet-name>
+		<url-pattern>/Home</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Address</servlet-name>
+		<url-pattern>/Address</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Cart</servlet-name>
+		<url-pattern>/Cart</url-pattern>
+	</servlet-mapping>
+  	<servlet-mapping>
+		<servlet-name>Category</servlet-name>
+		<url-pattern>/Category</url-pattern>
+	</servlet-mapping>
+  	<servlet-mapping>
+		<servlet-name>Favorite</servlet-name>
+		<url-pattern>/Favorite</url-pattern>
+	</servlet-mapping>
+  	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+  	<servlet-mapping>
+		<servlet-name>News</servlet-name>
+		<url-pattern>/News</url-pattern>
+	</servlet-mapping>
+  	<servlet-mapping>
+		<servlet-name>Product</servlet-name>
+		<url-pattern>/Product</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/Register</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>adminNews</servlet-name>
+		<url-pattern>/admin/news</url-pattern>
+	</servlet-mapping>
+  	<servlet-mapping>
+		<servlet-name>adminCategory</servlet-name>
+		<url-pattern>/admin/category</url-pattern>
+	</servlet-mapping>
+  	<servlet-mapping>
+		<servlet-name>order</servlet-name>
+		<url-pattern>/admin/order</url-pattern>
+	</servlet-mapping>
+  	<servlet-mapping>
+		<servlet-name>adminProduct</servlet-name>
+		<url-pattern>/admin/product</url-pattern>
+	</servlet-mapping>
+  	<servlet-mapping>
+		<servlet-name>adminUser</servlet-name>
+		<url-pattern>/admin/user</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OtherServlet</servlet-name>
+    <url-pattern>/OtherServlet</url-pattern>
+  </servlet-mapping> -->
+  	
+  	
+  	
+  	
+  <error-page>
+      <error-code>404</error-code>
+      <location>/404.jsp</location>
+  </error-page>
+
+  <error-page>
+    <error-code>500</error-code>
+    <location>/500.jsp</location>
+  </error-page>
+	
+	
+	
+</web-app>
